@@ -34,7 +34,7 @@ wywołana z poziomu interfejsu środowiska developerskiego, bądź z poziomu ter
 
 Główny interfejs programu przedstawi użytkownikowi menu w postaci listy figur i brył ponumerowanych rosnąco liczbami naturalnymi. Program będzie oczekiwał wpisania numeru wybranej figury bądź bryły.
 
-```sh
+```
 Kalkulator wymiarow figur i bryl geometrycznych
 
 Prosze wybrac numer figury:
@@ -60,7 +60,7 @@ Numer: __
 
 Po dokonaniu wyboru program wywoła odpowiednią funkcję, w której poprosi użytkownika o wpisanie wymaganych wymiarów w postaci liczb rzeczywistych, po czym obliczy wcześniej wspomniane parametry i wypisze je na ekranie. 
 
-```sh
+```
 Wybrano kwadrat
 
 Dlugosc boku kwadratu: __
@@ -68,7 +68,7 @@ Dlugosc boku kwadratu: __
 
 Po każdej dokonanej kalkulacji użytkownik będzie miał możliwość powrotu do menu głównego albo wyjścia z programu za pomocą wyboru indeksu danej opcji, podobnie jak w przypadku menu głównego. 
 
-```sh
+```
 Obwod: 20
 Pole: 25
 
