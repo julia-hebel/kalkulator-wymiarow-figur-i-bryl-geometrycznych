@@ -139,7 +139,7 @@ int main()
                 break;
         }
 
-        // petla powrotu do menu glownego - wykonuje sie tak dlugo, dopoki nie wybrana zostanie 
+        // petla powrotu do menu glownego - wykonuje sie tak dlugo, dopoki nie zostanie wybrana
         //  cyfra 1 lub 2 - wtedy nastepuje wyjscie z petli
         if (numerFigury >= 1 && numerFigury <= 12)
         { 

@@ -8,6 +8,7 @@
 
 using namespace std;
 
+// konstruktor 
 FiguraPlaska::FiguraPlaska()
 {
     this->Bok_a = 0;

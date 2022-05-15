@@ -1,4 +1,4 @@
-#define _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES   // potrzebne do wykorzystania wartoœci pi
 
 #include <iostream>
 #include <math.h>
@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// konstruktor
 Bryla::Bryla()
 {
     this->Krawedz_a = 0;
@@ -18,6 +19,7 @@ Bryla::Bryla()
     this->Objetosc = 0;
 }
 
+// wypisywanie na ekran wartoœci pola powierzchni i objêtoœci
 void Bryla::WypiszWymiary()
 {
     cout << endl;
@@ -53,8 +55,8 @@ void Bryla::Prostopadloscian()
     cout << "Dlugosc trzeciej krawedzi prostopadloscianu: ";
     cin >> Krawedz_c;
 
-    PolePowierzchni = (2 * Krawedz_a * Krawedz_a) + (2 * Krawedz_b * Krawedz_b) + (2 * Krawedz_c * Krawedz_c);
-    Objetosc = Krawedz_a * Krawedz_b * Krawedz_c;
+    PolePowierzchni = (2 * Krawedz_a * Krawedz_a) + (2 * Krawedz_b * Krawedz_b) + (2 * Krawedz_c * Krawedz_c);  // 2a^2 + 2b^2 + 2c^2
+    Objetosc = Krawedz_a * Krawedz_b * Krawedz_c;  
 
     WypiszWymiary();
 }
@@ -122,7 +124,7 @@ void Bryla::Kula()
     cin >> Promien;
 
     PolePowierzchni = 4 * M_PI * Promien * Promien;
-    Objetosc = 4 / 3 * M_PI * pow(Promien, 3);
+    Objetosc = 4 / 3 * M_PI * pow(Promien, 3);  // 4/3 * pi * R^3
 
     WypiszWymiary();
 }
